@@ -1,0 +1,91 @@
+.header img {
+    width: 120px;
+    height: 120px; /* Fixing the height and width of the resume picture */
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 50px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2em;
+}
+
+body {
+    font-family: "Sans-serif", sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    color: white;
+    background-color: black;
+}
+
+h1,
+h2,
+h3 {
+    color: white;
+    Code/styleCSSforResume.css .header img {
+        width: 100px;
+        height: auto;
+        max-height: 100px; /* Added max-height */
+        border-radius: 50%;
+        margin-right: 20px;
+    }
+
+    .header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 2em;
+    }
+
+    body {
+        font-family: "Sans-serif", sans-serif;
+        line-height: 1.6;
+        margin: 20px;
+        color: white;
+        background-color: black;
+    }
+
+    h1,
+    h2,
+    h3 {
+        color: white;
+        font-weight: 600;
+    }
+
+    h1 {
+        font-size: 2.5em;
+        margin-bottom: 0.5em;
+        font-weight: 700;
+    }
+
+    h2 {
+        font-size: 1.8em;
+        margin-bottom: 0.8em;
+    }
+
+    h3 {
+        font-size: 1.4em;
+        margin-bottom: 0.5em;
+    }
+
+    font-weight: 600;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 1.8em;
+    margin-bottom: 0.8em;
+}
+
+h3 {
+    font-size: 1.4em;
+    margin-bottom: 0.5em;
+}
