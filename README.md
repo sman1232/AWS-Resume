@@ -15,7 +15,7 @@ I created a static website of my resume using Amazon S3, and then distributed it
 4. Point a custom DNS domain name that I created in Route 53 to the CloudFront distribution
 
 # Link to Website
-https://stefanfarianresume.com
+stefanfarianresume.com
 
 ## Screenshots
 <img width="1456" alt="Screenshot 2025-06-27 at 2 54 40 PM" src="https://github.com/user-attachments/assets/49d40c0b-88f5-494b-b31a-406304996caa" />
