@@ -12,6 +12,7 @@ I created a static website of my resume using Amazon S3, and then distributed it
 1. Upload static files (HTML/CSS/JS) to an S3 bucket.
 2. Enable static website hosting on the bucket.
 3. Set up CloudFront distribution pointing to the S3 origin.
+4. Point a custom DNS domain name that I created in Route 53 to the CloudFront distribution
 
 # Link to Website
 https://djhdqgxaoo0vf.cloudfront.net
