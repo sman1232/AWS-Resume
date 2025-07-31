@@ -1,6 +1,6 @@
 # AWS Static Website Project
 
-I created a static website of my resume using Amazon S3, and then distributed it globally via CloudFront. I then created a custom DNS domain name in Route 53, which I pointed to the CloudFront distribution. This project is part of my cloud portfolio as I begin my cloud journey.
+I created a static website of my resume using Amazon S3, and then distributed it globally via CloudFront. I then created a custom DNS domain name in Route 53, which I pointed to the CloudFront distribution. To gain insights into website traffic, I enabled CloudFront access logging, then used AWS Glue and Amazon Athena to catalog and query the log data stored in S3. This project demonstrates both front-end hosting and back-end data analysis, and is part of my cloud portfolio as I begin my cloud journey.
 
 # Services Used
 
