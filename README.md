@@ -30,11 +30,16 @@ To track visitors in real-time, I added a backend pipeline:
 6. Created an AWS Glue crawler to scan and catalog the CloudFront log data in S3.
 7. Created a Glue database to store the metadata from the crawler.
 8. Queried the log data using Amazon Athena to analyze traffic, most visited pages, and client IPs.
-9. Built a Lambda function to log visitor information (IP, timestamp, browser, page path) in real-time.
-10. Set up an API Gateway endpoint to trigger the Lambda function from the website.
+9. Added a Lambda function to log visitor information in real-time, including IP address, timestamp, browser, and page visited.
+10. Exposed the Lambda function via API Gateway, allowing it to be triggered by site visits.
 11. Configured Amazon Kinesis Data Firehose to deliver the visitor logs from Lambda to S3 automatically.
 12. Tested the full workflow to ensure site visits trigger Lambda and store records in S3
 
+#Visitor Tracking
+I used two methods to track visitors:
+- DynamoDB visitor counter – keeps a simple running total of all site visits.
+- Firehose logging – stores detailed per-visitor logs (IP, timestamp, browser, page path) for deeper analysis.
+With this setup, I can see both aggregate traffic trends and detailed visitor activity.
 
 # Link to Website
 stefanfarianresume.com
