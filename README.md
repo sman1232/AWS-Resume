@@ -35,7 +35,8 @@ To track visitors in real-time, I added a backend pipeline:
 11. Configured Amazon Kinesis Data Firehose to deliver the visitor logs from Lambda to S3 automatically.
 12. Tested the full workflow to ensure site visits trigger Lambda and store records in S3
 
-#Visitor Tracking
+# Visitor Tracking
+
 I used two methods to track visitors:
 - DynamoDB visitor counter – keeps a simple running total of all site visits.
 - Firehose logging – stores detailed per-visitor logs (IP, timestamp, browser, page path) for deeper analysis.
