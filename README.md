@@ -40,6 +40,7 @@ To track visitors in real-time, I added a backend pipeline:
 I used two methods to track visitors:
 - DynamoDB visitor counter – keeps a simple running total of all site visits.
 - Firehose logging – stores detailed per-visitor logs (IP, timestamp, browser, page path) for deeper analysis.
+
 With this setup, I can see both aggregate traffic trends and detailed visitor activity.
 
 # Link to Website
