@@ -49,3 +49,4 @@ stefanfarianresume.com
 <img width="672" height="797" alt="Screenshot 2025-08-23 at 1 29 39 PM" src="https://github.com/user-attachments/assets/19959543-fd7f-45b6-a751-ee6aaeb6fdaf" />
 <img width="1408" height="496" alt="Screenshot 2025-08-23 at 1 26 18 PM" src="https://github.com/user-attachments/assets/b1fedeee-cc5b-43be-8733-ff4b94cf3817" />
 <img width="1429" height="491" alt="Screenshot 2025-08-23 at 1 30 08 PM" src="https://github.com/user-attachments/assets/31d431d5-9a1a-4147-a28b-a22daf9412e8" />
+<img width="866" height="715" alt="Screenshot 2025-08-23 at 1 34 31 PM" src="https://github.com/user-attachments/assets/7d3b67b2-6e89-47f1-824a-2a2b1b02fac7" />
